@@ -4,14 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const Halo = () =>{
-  return <p>Halloooo</p>
-}
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Halo />
+    <App />
   </React.StrictMode>
 );
 
